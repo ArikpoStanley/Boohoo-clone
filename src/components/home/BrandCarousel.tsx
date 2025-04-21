@@ -99,7 +99,6 @@ const BrandsCarousel = () => {
               >
                 <div className="absolute inset-0 transition-all duration-300 z-10" />
                 <div className="w-full h-full relative">
-                  {/* In a real implementation, replace with your actual images */}
                   <div className="bg-gray-200 w-full h-full relative">
                     <Image 
                       src={brand?.imageUrl} 
