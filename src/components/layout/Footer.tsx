@@ -117,7 +117,7 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Main footer links and social */}
-        <div className="flex xl:flex-row flex-col justify-between">
+        <div className="flex xl:flex-row flex-col justify-between items-center">
           <div className="md:grid md:grid-cols-5 gap-8 mb-12 xl:w-[70%] w-full">
             {/* Shopping with Boohoo */}
             <CollapsibleSection 
@@ -187,23 +187,23 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Social Media Links */}
-          <div className="flex flex-col xl:items-left sm:items-center md:items-center mb-8 xl:w-[20%] w-full">
-            <h3 className="font-bold text-base mb-4">Follow Us On Social Media</h3>
-            <div className="flex space-x-4">
-              <Link href="https://instagram.com/boohoo" className="hover:opacity-80">
-                <Instagram size={24} />
-              </Link>
-              <Link href="https://instagram.com/boohoo" className="hover:opacity-80">
-                <FaPinterest size={24} />
-              </Link>
-              <Link href="https://facebook.com/boohoo" className="hover:opacity-80">
-                <Facebook size={24} />
-              </Link>
-              <Link href="https://twitter.com/boohoo" className="hover:opacity-80">
-                <Twitter size={24} />
-              </Link>
-            </div>
+          <div className="flex flex-col items-center xl:items-start mb-8 xl:w-[20%] w-full">
+          <h3 className="font-bold text-base mb-4">Follow Us On Social Media</h3>
+          <div className="flex space-x-4">
+            <Link href="https://instagram.com/boohoo" className="hover:opacity-80">
+              <Instagram size={24} />
+            </Link>
+            <Link href="https://instagram.com/boohoo" className="hover:opacity-80">
+              <FaPinterest size={24} />
+            </Link>
+            <Link href="https://facebook.com/boohoo" className="hover:opacity-80">
+              <Facebook size={24} />
+            </Link>
+            <Link href="https://twitter.com/boohoo" className="hover:opacity-80">
+              <Twitter size={24} />
+            </Link>
           </div>
+        </div>
 
 
            {/* Brand logos */}
