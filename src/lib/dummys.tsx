@@ -1615,7 +1615,7 @@ export const categoryData = [
   ];
 
   export const carouselImages: CarouselImage[] = [
-    { src: "/images/carousel1.png", mobile: "/image", alt: "Fashion model in white blazer" }, 
-    { src: "/images/carousel.png", mobile: "/image", alt: "New collection showcase" },
-    { src: "/images/carousel2.png",  mobile: "/image", alt: "60% off brands promotion" },
+    { src: "/images/carousel1.png", mobile: "/hero/hero1mobile.png", alt: "Fashion model in white blazer" }, 
+    { src: "/images/carousel.png", mobile: "/hero/hero2mobile.png", alt: "New collection showcase" },
+    { src: "/images/carousel2.png",  mobile: "/hero/hero3mobile.png", alt: "60% off brands promotion" },
   ]

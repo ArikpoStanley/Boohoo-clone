@@ -30,7 +30,7 @@ export interface Product {
   export interface CarouselImage {
     src: string;
     alt: string;
-    mobile?: string;
+    mobile: string;
   }
   
   export interface ImageCarouselProps {
