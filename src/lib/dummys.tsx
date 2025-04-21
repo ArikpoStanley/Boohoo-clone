@@ -1,4 +1,4 @@
-import { CarouselImage } from "@/components/home/ImageCarousel";
+import { CarouselImage } from "./types";
 import { NavItem, PromoMessage } from "./types";
 
 export const categoryData = [
@@ -1615,7 +1615,7 @@ export const categoryData = [
   ];
 
   export const carouselImages: CarouselImage[] = [
-    { src: "/images/carousel1.png", alt: "Fashion model in white blazer" }, 
-    { src: "/images/carousel.png", alt: "New collection showcase" },
-    { src: "/images/carousel2.png", alt: "60% off brands promotion" },
-  ];
+    { src: "/images/carousel1.png", mobile: "/image", alt: "Fashion model in white blazer" }, 
+    { src: "/images/carousel.png", mobile: "/image", alt: "New collection showcase" },
+    { src: "/images/carousel2.png",  mobile: "/image", alt: "60% off brands promotion" },
+  ]

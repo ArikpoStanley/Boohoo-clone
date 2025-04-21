@@ -27,6 +27,17 @@ export interface Product {
     link: string;
   }
 
+  export interface CarouselImage {
+    src: string;
+    alt: string;
+    mobile?: string;
+  }
+  
+  export interface ImageCarouselProps {
+    images: CarouselImage[];
+    autoplayInterval?: number; // Optional prop to customize the interval
+  }
+
 
   export interface BrandLogo {
     name: string;

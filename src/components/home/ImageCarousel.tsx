@@ -2,18 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-
-// Define the interface for carousel images
-export interface CarouselImage {
-  src: string;
-  alt: string;
-}
-
-// Define the props interface for the component
-interface ImageCarouselProps {
-  images: CarouselImage[];
-  autoplayInterval?: number; // Optional prop to customize the interval
-}
+import { ImageCarouselProps } from '@/lib/types';
 
 const ImageCarousel: React.FC<ImageCarouselProps> = ({ 
   images, 
@@ -121,7 +110,7 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({
 
             <div className="block xl:hidden">
             <Image 
-            src={image.src} 
+            src={image?.mobile} 
             alt={image.alt} 
             fill
             sizes="100%"
